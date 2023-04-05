@@ -1,0 +1,16 @@
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.csproj.AssemblyReference.cache
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.Form1.resources
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.csproj.GenerateResource.cache
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.AssemblyInfoInputs.cache
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.AssemblyInfo.cs
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.csproj.CoreCompileInputs.cache
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\bin\Debug\netcoreapp3.1\lista_icg.exe
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\bin\Debug\netcoreapp3.1\lista_icg.deps.json
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\bin\Debug\netcoreapp3.1\lista_icg.runtimeconfig.json
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\bin\Debug\netcoreapp3.1\lista_icg.runtimeconfig.dev.json
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\bin\Debug\netcoreapp3.1\lista_icg.dll
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\bin\Debug\netcoreapp3.1\lista_icg.pdb
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.dll
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.pdb
+C:\Users\Ana Paula\Documents\listas\ICG\exercicios_ICG\lista_icg\lista_icg\obj\Debug\netcoreapp3.1\lista_icg.genruntimeconfig.cache

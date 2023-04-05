@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista_icg", "lista_icg\lista_icg.csproj", "{135BD542-7C62-421F-B73C-D96F7814C7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{135BD542-7C62-421F-B73C-D96F7814C7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135BD542-7C62-421F-B73C-D96F7814C7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135BD542-7C62-421F-B73C-D96F7814C7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135BD542-7C62-421F-B73C-D96F7814C7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A3107ED-BE99-4DEE-93D0-438DAAEBD47D}
+	EndGlobalSection
+EndGlobal

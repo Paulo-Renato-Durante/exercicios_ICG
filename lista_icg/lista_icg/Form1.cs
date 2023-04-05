@@ -46,7 +46,7 @@ namespace lista_icg
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             int[] pontos = new int[] { 100, 100, 150, 50, 200, 100, 175, 150, 125, 150 };
-            desenhaFormas(e, pontos, caneta(cor(255,0,0),1));
+            desenhaFormas(e, pontos, caneta(cor(255,0,0),2));
         }
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
