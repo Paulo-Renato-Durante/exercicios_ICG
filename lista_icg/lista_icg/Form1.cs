@@ -26,20 +26,11 @@ namespace lista_icg
         }
         public void desenhaFormas(PaintEventArgs e, int[] pontos, Pen caneta)
         {
-            int i1 = 0;
-            int i2 = 2;
-            for (int i = 0; i< pontos.Length/2; i++)
+            for (int i = 0; i < pontos.Length-2 ; i += 2)
             {
-                retaBreseham(pontos[i1], pontos[i1 + 1], pontos[i2], pontos[i2+1], caneta, e);
-                i1 += 2;
-                i2 += 2;
-                if (i2 == pontos.Length)
-                {
-                    i2 = 0;
-                }
-
-
+                retaBreseham(pontos[i], pontos[i + 1], pontos[i + 2], pontos[i + 3], caneta, e);
             }
+            retaBreseham(pontos[0], pontos[1], pontos[pontos.Length - 2], pontos[pontos.Length - 1], caneta, e);
         }
 
         public Form1()
@@ -54,7 +45,7 @@ namespace lista_icg
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            int[] pontos = new int[] {900, 540, 960, 460, 1020, 540, 1110, 540, 1035, 600, 1060, 680, 960, 630, 860, 680, 885, 600, 810, 540 };
+            int[] pontos = new int[] { 760, 73, 745, 233, 755, 389, 821, 398, 800, 370, 790, 280, 815, 150, 860, 45, 830, 240, 845, 374, 922, 377, 890, 340, 880, 290, 890, 234, 930, 200, 966, 200, 990, 240, 999, 300, 980, 345, 960, 375, 1018, 384, 1041, 353, 1044, 245, 1036, 144, 1023, 44, 1072, 152, 1087, 272, 1082, 360, 1060, 392, 1124, 393, 1144, 305, 1136, 185, 1124, 74, 1165, 170, 1180, 270, 1183, 356, 1170, 429, 1100, 438, 1010, 427, 1100, 465, 1200, 519, 1195, 625, 1150, 757, 1090, 860, 1118, 759, 1140, 660, 1160, 558, 1100, 516, 1100, 600, 1077, 700, 1024, 822, 1051, 686, 1058, 545, 1021, 487, 1020, 600, 1000, 697, 960, 770, 940, 785, 914, 776, 870, 707, 855, 630, 858, 485, 800, 515, 812, 583, 825, 688, 850, 830, 780, 662, 767, 566, 780, 512, 715, 557, 737, 710, 774, 860, 700, 690, 677, 615, 675, 510, 760, 466, 866, 425, 713, 428, 700, 311, 714, 196 };
             desenhaFormas(e, pontos, caneta(cor(255,0,0),2));
         }
 
