@@ -22,15 +22,24 @@ namespace lista_icg
         }
         public void retaBreseham(int x0, int y0, int x1, int y1, Pen caneta, PaintEventArgs e)
         {
-            e.Graphics.DrawLine(caneta, x0, y0, x1, y1);
+            e.Graphics.DrawLine(caneta,x0, y0, x1, y1);
         }
         public void desenhaFormas(PaintEventArgs e, int[] pontos, Pen caneta)
         {
-            for (int i = 0; i <= (pontos.Length / 2) + 1; i = i + 2)
+            int i1 = 0;
+            int i2 = 2;
+            for (int i = 0; i< pontos.Length/2; i++)
             {
-                retaBreseham(pontos[i], pontos[i + 1], pontos[i + 2], pontos[i + 3], caneta, e);
+                retaBreseham(pontos[i1], pontos[i1 + 1], pontos[i2], pontos[i2+1], caneta, e);
+                i1 += 2;
+                i2 += 2;
+                if (i2 == pontos.Length)
+                {
+                    i2 = 0;
+                }
+
+
             }
-            retaBreseham(pontos[0], pontos[1], pontos[pontos.Length-2], pontos[pontos.Length-1],caneta,e);
         }
 
         public Form1()
@@ -45,7 +54,7 @@ namespace lista_icg
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            int[] pontos = new int[] { 100, 100, 150, 50, 200, 100, 175, 150, 125, 150 };
+            int[] pontos = new int[] {900, 540, 960, 460, 1020, 540, 1110, 540, 1035, 600, 1060, 680, 960, 630, 860, 680, 885, 600, 810, 540 };
             desenhaFormas(e, pontos, caneta(cor(255,0,0),2));
         }
 
